@@ -1,70 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title> 
-    <style>
-      body {
-        min-height: 100vh;
-      }
-      .navbar-nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-      }
-    </style>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body> 
-    <section class="container.fluid">
-      <div class="row m-4">
-        <div class="col-sm-9">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="nav-link" href="">
-              <img class="me-5" src="./assets/imatges/Group 13.jpg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Single</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <div class="col-sm-3 text-end text-center">
-          <i class="bi bi-search m-8"></i>
-        </div>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
 
-      <section class="row">
-        <div class="col-sm-8 background1">
-            <img class="opacity-25 rounded col-sm-10 m-4" src="https://s3-alpha-sig.figma.com/img/68c7/bed0/d3fda0de9f2787bb0ec6930c5475d3fd?Expires=1701043200&Signature=CCiruORRy31m0zt3r3r8lAlzKenYOx6u9dZNVYscNuyyWIX3zpmyXcl3RpJPrd2OhfTo1T3JFDr8E~MUFc6cfMf5nAfgEnam2A50zkQOk84X-FKzWu1-2FC6XN0B7KTDVN8bRdGaMluNq0ulu-JZdWtRSEUtWCxrpXjXeyB-REawTuIE7YQOY9LRZxTUr5bdrd2zcZviMRj6Rl50oSWvxouKSM-TGR7s08Elo9vN50lDzkasb~vGFzpK~e0a3OVhNkpX~TK9PVcpXHfA8PEpoI2OYqLCL12Kasu7Snpafkde2wL5SWhowi-SZubTQy37oa17qlcAFZpcL5gi7Fo8Pg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="">
-        </div>
-        <div class="col-sm-2">
-          <div class="">
-            <h3 class="ms">New</h3>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="container.fluid">
+    <div class="row m-4">
+      <div class="col-sm-9">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <a class="nav-link" href="">
+            <img class="me-5" src="assets/imatges/Group 13.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active pe-5">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link" href="#">Single</a>
+              </li>
+            </ul>
           </div>
+        </nav>
+      </div>
+      <div class="col-sm-3 text-center">
+        <i class="bi bi-search m-8"></i>
+      </div>
+    </div>
+  </section>
 
-        </div>
+  <section class="row">
+    <div class="col-sm-8">
+      <div>a</div>
+      <div>b</div>
+      <div>c</div>
+    </div>
+    <div class="col-sm-4">
+      <h3>New</h3>
+      <div>View All New</div>
+      <div class="m-5">
+        <div class="m-3">fecha</div>
+        <div>titulo</div>
+        <div>data</div>
+        <div>titulo</div>
+        <div>data</div>
+        <div>titulo</div>
+        <div>data</div>
+        <div>titulo</div>
+      </div>
+    </div>
+  </section>
 
-      </section>
 
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+  <section class="row">
+    <div class="col-sm-12">
+      <div style="display: flex;">
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+        <div style="flex: 1;"><img
+            src="https://img.freepik.com/vector-gratis/coleccion-iconos-isometricos-dispositivos-modernos-dieciseis-imagenes-aisladas-perifericos-computadoras-varias-ilustraciones-electronica-consumo_1284-29118.jpg?w=740&t=st=1700149381~exp=1700149981~hmac=600d4099bb36fad69ca1055e726d04a4159b77eef0d50fa2bcbaf50d728a6043"
+            alt=""></div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
