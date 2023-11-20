@@ -7,3 +7,26 @@ body {
     justify-content: space-between;
   }
 
+.background-principal{
+    background-image: url('../assets/imatges/imagen-opaca.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+img{width: 100%;}
+
+.carrousell .col-sm-2{
+  height: 226px;
+  overflow: hidden;
+}
+
+.carrousell .col-sm-2.box{
+    width: 80px;
+    height: 225px ;
+    border: 1px solid #000;
+    
+}
+
+.icon{
+  justify-content: space-between;
+}
