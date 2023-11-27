@@ -1,6 +1,4 @@
-section, div{
-  border: 1px solid #000;
-}
+
 
 
 
@@ -29,6 +27,24 @@ body {
   background-size: cover;
   height: 100%;
   background-position: center;
+}
+.background4{
+  background-image: url('../assets/imatges/chap1_ent_sprint-1920x1080.png');
+  background-size: cover;
+  background-position: center ;
+}
+.background5{
+  background-image: url('../assets/imatges/Ch2-Design-Sprints-Final-1764x992.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+}
+.background6{
+  background-image: url('../assets/imatges/designbetter_website_book_assets_illustrations_principlesofproductdesign_breaktheblackbox-1920x1081.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
 
 }
 
