@@ -18,6 +18,19 @@ body {
     background-size: cover;
     background-position: center;
 }
+.background2{
+    background-image: url('../assets/imatges/chap6_ent_sprint-1920x1080.png');
+    background-size: cover;
+    background-position: center ;
+}
+.background3{
+  background-image: url('../assets/imatges/chap4_ent_sprint-1920x1080.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+
+}
 
 img{width: 100%;}
 
