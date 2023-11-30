@@ -51,7 +51,7 @@ body {
 
 .background7{
   background-image: url('../assets/imatges/background7.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 
 .background8{
   background-image: url('../assets/imatges/background8.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body {
 
 .background9{
   background-image: url('../assets/imatges/background9.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
 
 .background10{
   background-image: url('../assets/imatges/background10.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
 
 .background11{
   background-image: url('../assets/imatges/background11.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
 
 .background12{
   background-image: url('../assets/imatges/background12.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ body {
 
 .background13{
   background-image: url('../assets/imatges/background13.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
 
 .background14{
   background-image: url('../assets/imatges/background14.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
 
 .background15{
   background-image: url('../assets/imatges/background15.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body {
 
 .background16{
   background-image: url('../assets/imatges/background16.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ body {
 
 .background17{
   background-image: url('../assets/imatges/background17.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ body {
 
 .background18{
   background-image: url('../assets/imatges/background18.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body {
 
 .background19{
   background-image: url('../assets/imatges/background19.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ body {
 
 .background20{
   background-image: url('../assets/imatges/background20.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
