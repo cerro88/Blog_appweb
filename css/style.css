@@ -226,9 +226,13 @@ button{
 
 .footer{
   display: flex;
-  height: 20px;
+  justify-content: space-between;
+  align-items: center; 
+  width: 200px;
+  background-color: #fff;
 }
 
-.footer p{
-  font-size: x-small;
+
+.textFooter{
+  font-size: xx-small;
 }
