@@ -4,6 +4,7 @@
 
 body {
     min-height: 100vh;
+    background-color: #F9F9FB;
   }
   .navbar-nav {
     width: 100%;
@@ -197,5 +198,37 @@ button{
 }
 
 .icons{
+  height: 25px;
+}
+
+.background-box{
+  background-color: #fff;
+  border: 0.5px solid #ede6e6;
+  border-radius: 20px;
+  display: flex;
+}
+
+.email{
+  border-radius: 30px;
+  border: 0.5px solid #ede6e6;
+  background-color: #fff;
+  height: 50px;
+
+}
+
+.pink{
+  border-radius: 30px;
+  background-color: #FF5480;
+  color: #fff;
+  width: 100px;
+  height: 47px;
+}
+
+.footer{
+  display: flex;
   height: 20px;
+}
+
+.footer p{
+  font-size: x-small;
 }
