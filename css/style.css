@@ -197,9 +197,7 @@ button{
   font-weight: 3px;
 }
 
-.icons{
-  height: 25px;
-}
+
 
 .background-box{
   background-color: #fff;
@@ -224,15 +222,20 @@ button{
   height: 47px;
 }
 
-.footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-  width: 200px;
-  background-color: #fff;
+.icons{
+  width: 20px;
 }
 
+.footer{
+  font-size: x-small;
+  text-align: right;
+}
 
-.textFooter{
-  font-size: xx-small;
+.footer_img{
+  width: 100px;
+}
+
+.pageFooter{
+  background-color: #fff;
+  border: 1px #ede6e6;
 }
