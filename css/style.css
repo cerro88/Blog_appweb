@@ -15,6 +15,7 @@ body {
 .background-principal{
     background-image: url('../assets/imatges/imagen-opaca.jpg');
     background-size: cover;
+    font-family: Open Sans;
 
     background-position: center;
 }
@@ -183,10 +184,6 @@ img{width: 100%;}
 } 
 
 
-p{
-  text-align: center;
-}
-
 button{
   border: 3px solid rgb(172, 46, 186);
   border-radius: 50px;
@@ -240,6 +237,43 @@ button{
   border: 1px #ede6e6;
 }
  .pink{
-  border-radius: 20px;
   background-color: #FF5480;
+ }
+
+ .media_1{
+  width: 30px;
+ }
+
+ .img_border{
+  border-radius: 10px;
+ }
+
+ .small{
+  font-size: x-small;
+  color: ;
+ }
+
+ .nota{
+  color: #9283E0;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 58px; /* 241.667% */
+  letter-spacing: -0.15px;
+ }
+
+ .email{
+  color: #27AEFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+ }
+
+ .circulo{
+  border-radius: 70px;
+  width: 150px;
  }
