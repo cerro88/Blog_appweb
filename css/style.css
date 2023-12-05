@@ -302,3 +302,10 @@ button{
  .pading{
   padding: 0 0 50px 0;
  }
+
+ .Post{
+  background: #FF5480;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #ff5480;
+ }
