@@ -15,7 +15,7 @@ body {
 .background-principal{
     background-image: url('../assets/imatges/imagen-opaca.jpg');
     background-size: cover;
-    font-family: Open Sans;
+    font-family: Open Sans; 
 
     background-position: center;
 }
@@ -275,5 +275,26 @@ button{
 
  .circulo{
   border-radius: 70px;
-  width: 150px;
+  width: 60px;
+ }
+
+ button.leave{
+  background-color: #fff;
+  border-radius: 10px;
+  color: #FF5480;
+  border: 2px solid #FF5480;
+ }
+
+ button.Reply{
+  background-color: #fff;
+  border-radius: 10px;
+  color: #9B9B9B ;
+  border: 2px solid #9b9b9b;
+  width: 70px;
+  height: 50px;
+ }
+
+ .box{
+  background: #f9f9fb;
+  border: 1px solid #9b9b9b;
  }
