@@ -298,3 +298,7 @@ button{
   background: #f9f9fb;
   border: 1px solid #9b9b9b;
  }
+
+ .pading{
+  padding: 0 0 50px 0;
+ }
