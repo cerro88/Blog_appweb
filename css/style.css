@@ -309,3 +309,12 @@ button{
   border-radius: 30px;
   border: 1px solid #ff5480;
  }
+
+ .form-control{
+  border: 1px solid #9b9b9b ;
+ }
+
+ .fin{
+  width: 50px;
+  margin: 15px;
+ }
